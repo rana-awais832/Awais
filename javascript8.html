@@ -1,0 +1,723 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<title>Restaurant</title>
+<style>
+#box1{
+background-image:url('Awais/pizza.jpg');
+width:1350px;
+
+height:600px;
+background-size:cover;
+background-position:center;
+transform-style:preserve-3d;
+transition:all 1s ease-in-out;
+
+}
+.jaggu{
+position:absolute;
+top:50px;
+padding:15px;
+transform-style:preserve-3d;
+transition:all 2s ease-in-out;
+
+}
+.jaggu:hover{
+transform:rotateY(90deg);
+}
+.jaggu h1 {
+background:linear-gradient(to right,red 90%,yellow 10%);
+border:1px solid;
+width:200px;
+border-radius:10px;
+background:radial-gradient(white,red);
+
+}
+
+.jaggu p{
+background:repeating-radial-gradient(white,red);
+border:1px solid;
+width:400px;
+margin-top:-30px;
+border-radius:10px;
+opacity:90%;
+background:linear-gradient(90deg,red,yellow);
+
+}
+.jaggu button{
+border:1px solid;
+width:150px;
+background:yellow;
+color:black;
+height:40px;
+margin-left:25px;
+margin-top:-20px;
+border-radius:10px;
+background:linear-gradient(90deg,red,yellow);
+}
+#box1:hover{
+transform:rotateY(360deg);
+
+}
+
+#box1 img{
+contrast:300%;
+saturate:200%;
+brightness:100%;
+}
+#box{
+border:1px solid black;
+padding:10px;
+width:1350px;
+background:black;
+
+
+}
+#box2{
+
+
+border:1px solid black;
+width:200px;
+height:50px;
+border-radius:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:black;
+background:white;
+transform-style:preserve-3d; 
+padding:10px; 
+}
+#box2 img{
+
+width:100px;
+height:50px;
+border-radius:50px;
+}
+#box2:hover{
+cursor:pointer;
+border-radius:15px;
+transition:all 1s ease;
+transform:rotateY(360deg);
+
+
+}
+#box4{
+margin-left:200px;
+margin-top:-60px;
+
+font-size:15px;
+
+
+}
+
+.container li{
+display:inline;
+margin:80px;
+
+
+font-size:25px;
+font-weight:bolder;
+border-radius:5px;
+width:80px;
+background:linear-gradient(black);
+
+
+}
+.container li:hover{
+border:1px solid white;
+border-radius:50px;
+
+}
+a{
+text-decoration:none;
+color:white;
+
+}
+.container i{
+color:green;
+padding:1px;
+
+}
+#box6{
+border:2px solid black;
+width:250px;
+height:200px;
+padding:20px;
+border-radius:10px;
+background:#F2CD8F;
+}
+.master i{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:80px;
+color:yellow;
+transform-style:preserve-3d;
+transition:all 1s ease;
+
+
+
+}
+.master i:hover{
+transform:rotateY(360deg);
+color:green;
+}
+.master h1{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.master p{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+#box7{
+border:2px solid black;
+width:250px;
+height:200px;
+padding:20px;
+border-radius:10px;
+background:#F2CD8F;
+margin-left:320px;
+margin-top:-245px;
+
+
+}
+.food i{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:80px;
+color:yellow;
+transform-style:preserve-3d;
+transition:all 1s ease;
+}
+.food i:hover{
+transform:rotateY(360deg);
+color:green;
+}
+.food h1{
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+.food p{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+#box8{
+border:2px solid black;
+width:250px;
+height:200px;
+padding:20px;
+border-radius:10px;
+background:#F2CD8F;
+margin-left:640px;
+margin-top:-245px;
+
+
+}
+.order i{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:80px;
+color:yellow;
+transform-style:preserve-3d;
+transition:all 1s ease;
+
+}
+.order i:hover{
+transform:rotateY(360deg);
+color:green;
+}
+.order h1{
+
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.order p{
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+#box9{
+border:2px solid black;
+width:250px;
+height:200px;
+padding:20px;
+border-radius:10px;
+background:#F2CD8F;
+margin-left:1000px;
+margin-top:-245px;
+
+
+}
+.service i{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:80px;
+color:yellow;
+transform-style:preserve-3d;
+transition:all 1s ease;
+
+}
+.service i:hover{
+transform:rotateY(360deg);
+color:green;
+
+}
+.service h1{
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+.service p{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+#box10 img{
+width:500px;
+height:450px;
+transform-style:preserve-3d;
+transition:all 1s ease-in-out;
+
+}
+#box10 img:hover{
+transform:rotateY(360deg);
+}
+#box11 img{
+width:300px;
+height:270px;
+margin-left:530px;
+margin-top:-269px;
+transform-style:preserve-3d;
+transition:all 1s ease-in-out;
+}
+#box11 img:hover{
+transform:rotateY(360deg);
+
+}
+#box12{
+margin-left:900px;
+margin-top:-400px;
+border:1px solid black;
+width:400px;
+height:350px;
+padding:10px;
+background:#F2CD8F;
+border-radius:10px;
+}
+#box12 button{
+border:1px solid yellow;
+width:100px;
+height:30px;
+margin-left:150px;
+background:yellow;
+color:black;
+border-radius:50px;
+}
+#box5 img{
+width:1370px;
+height:600px;
+}
+#box13{
+margin-left:300px;
+}
+.items h2{
+margin-left:120px;
+font-size:40px;
+}
+.you li{
+margin-left:200px;
+margin-top:-130px;
+}
+.safari li{
+margin-left:400px;
+margin-top:-130px;
+}
+#box14 img{
+width:150px;
+border-radius:10px;
+
+}
+.icecream p{
+margin-left:50px;
+color:red;
+}
+
+#box15 img{
+width:150px;
+border-radius:10px;
+margin-left:180px;
+margin-top:-260px;
+height:150px;
+}
+.burger h1{
+margin-left:180px;
+margin-top:-87px;
+}
+.burger p{
+margin-left:200px;
+color:red;
+}
+#box16 img{
+width:150px;
+border-radius:10px;
+margin-left:360px;
+margin-top:-275px;
+height:150px;
+
+}
+.pizza h1{
+margin-left:340px;
+margin-top:-100px;
+}
+.pizza p{
+margin-left:400px;
+color:red;
+}
+#box17 img{
+width:150px;
+border-radius:10px;
+margin-left:545px;
+margin-top:-290px;
+height:150px;
+
+}
+.shuwarma h1{
+margin-left:550px;
+margin-top:-115px;
+
+}
+.shuwarma p{
+margin-left:590px;
+color:red;
+
+}
+#box18 img{
+width:1000px;
+height:500px;
+margin-left:350px;
+border-radius:20px;
+padding:10px;
+}
+#box19 img{
+width:380px;
+height:400px;
+margin-top:-500px;
+border-radius:50%;
+margin-left:-50px;
+transform-style:preserve-3d;
+transition:all 1s ease;
+}
+#box19 img:hover{
+transform:rotateY(369deg);
+
+}
+.worker h1{
+margin-top:-60px;
+margin-left:30px;
+
+}
+.worker i{
+color:red;
+}
+.worker a{
+color:red;
+}
+#box20 img{
+border-radius:50%;
+width:280px;
+height:250px;
+margin-left:900px;
+margin-top:-868px;
+transform-style:preserve-3d;
+transition:all 1s ease;
+}
+#box20 img:hover{
+transform:rotateY(360deg);
+
+}
+.yee h1{
+margin-left:900px;
+margin-top:-600px;
+color:red;
+
+}
+.yee i{
+color:red;
+padding:10px;
+}
+#box21 img{
+
+width:200px;
+margin-top:-300px;
+margin-left:690px;
+transform:rotateY(180deg);
+transform-style:preserve-3d;
+transition:all 1s ease;
+}
+#box21 img:hover{
+transform:rotateX(360deg);
+}
+#box22{
+border:3px solid black;
+width:1320px;
+height:300px;
+position:absolute;
+bottom:-2150px;
+border-radius:10px;
+background:black;
+}
+.bot h1{
+padding:10px;
+color:white;
+border:1px solid white;
+width:100px;
+border-radius:5px;
+background:white;
+color:black;
+}
+.bot h1:hover{
+border:1px solid white;
+width:120px;
+transition:all 1s ease;
+border-radius:50%;
+}
+.bot p{
+color:white;
+padding:10px;
+margin-top:-20px;
+}
+.cont h1{
+padding:10px;
+color:white;
+border:1px solid white;
+width:150px;
+border-radius:5px;
+background:white;
+color:black;
+height:40px;
+}
+.cont h1:hover{
+border:1px solid white;
+width:160px;
+transition:all 1s ease;
+border-radius:50%;
+}
+.cont i{
+color:green;
+padding:5px;
+}
+.cont{
+color:white;
+
+}
+#box23{
+margin-left:370px;
+margin-top:-290px;
+
+}
+.our h1{
+color:white;
+padding:10px;
+
+border:1px solid white;
+width:170px;
+border-radius:5px;
+background:white;
+color:black;
+height:40px;
+
+}
+.our p{
+color:white;
+}
+#box24{
+color:white;
+margin-left:700px;
+margin-top:-220px;
+}
+.yeh h1{
+color:white;
+padding:10px;
+
+border:1px solid white;
+width:150px;
+border-radius:5px;
+background:white;
+color:black;
+height:40px;
+
+
+}
+.yeh input{
+border-radius:5px;
+}
+.yeh button{
+width:180px;
+border-radius:10px;
+background:red;
+height:40px;
+
+}
+.yeh i{
+color:white;
+padding:10px;
+
+}
+
+
+</style>
+<body>
+<div id="box">
+<div id="box2">
+<h1>Pizza Flavour</h1><img src="Awais/tomato.jpg"/></div>
+<div id="box4">
+<div class="container">
+<ol>
+<li><a href="h">&nbsp&nbsp<i class="fa-solid fa-house">&nbsp</i>Home</a></li>
+<li><a href="h">&nbsp<i class="fa-solid fa-file">&nbsp</i>Page</a></li>
+<li><a href="h">&nbsp<i class="fa-solid fa-address-card">&nbsp</i>About</a></li>
+<li><a href="h"><i class="fa-solid fa-phone">&nbsp</i>Contact us</a></li>
+</ol></div></div></div>
+<div id="box5">
+<img src="Awais/restaurant.jpg"/>
+</div>
+
+<div id="box6">
+<div class="master">
+<i class="fa-solid fa-person"></i>
+<h1>Master Chefs</h1>
+<p>we have experience persons<br>for cooking food</p>
+</div></div>
+<div id="box7">
+<div class="food">
+<i class="fa-solid fa-utensils"></i>
+<h1>Quality Food</h1>
+<p>We have food with good quality as such as pizza shuwarma
+</p></div></div>
+<div id="box8">
+<div class="order">
+<i class="fa-solid fa-truck"></i>
+<h1>Online Order</h1>
+You can online order of pizaa and Delivery time is 30min</p>
+</div></div>
+<div id="box9">
+<div class="service">
+<i class="fa-regular fa-headphones"></i>
+<h1>24/6 Service</h1>
+<p>you can easily order pizza burger shuwarma at any time there is no restriction</p>
+</div></div>
+<div id="box10">
+<img src="Awais/restaurant.jpg"/>
+</div>
+<div id="box11">
+<img src="Awais/restaurant2.jpg"/>
+</div>
+<div id="box12">
+<div class="intro">
+<h1>Welcome to Our Pizza Flavour</h1>
+<p>There is our so experienced cooker that cooked very well<br> and mostly people are ten year experienced</p>
+<h2> 8 Years of<br>Experience</h2>
+<h3>25 popular<br>Master CHEFS</h3>
+<button onclick="mousemove">Read More</button></div></div>
+<div id="box13">
+<div class="items">
+<h2>most popular items</h2>
+<ol>
+<li><a href="h"></a><i class="fa-solid fa-mug-hot"></i><h1>popular<br>Breakfast</h1></li>
+<div class="you">
+<li><a href="g"></a><i class="fa-solid fa-utensils"></i><h1>Special<br>Lunch<h1></li></div>
+<div class="safari">
+<li><a href="j"></a><i class="fa-solid fa-cookie-bite"></i><h1>Lovely<br>Dinner</h1></li></ol></div>
+</div></div>
+<div id="box14">
+<div class="icecream">
+<img src="Awais/icecream.jpg"/><br>
+<h1>Ice Cream</h1><p>1$</p>
+</div></div>
+<div id="box15">
+<div class="burger">
+<img src="Awais/burger.jpg"/><br>
+<h1>Burger</h1><p>2$</p>
+</div></div>
+<div id="box16">
+<div class="pizza">
+<img src="Awais/pizza.jpg"/><br>
+<h1>Chicken Pizza</h1><p>4$</p>
+</div></div>
+<div id="box17">
+<div class="shuwarma">
+<img src="Awais/shuwarma.jpg"/><br>
+<h1>Shuwarma</h1><p>2$</p>
+</div></div>
+<div id="box18">
+<div class="pizza2">
+<img src="Awais/pizza5.jpg"/><br>
+</div></div>
+<div id="box19">
+
+<img src="Awais/worker.jpg"/><br>
+<div class="worker">
+<h1><i>8</i> Year Experience<br>With <a>25</a> CHEFS</h1>
+</div></div>
+<div id="box20">
+<img src="Awais/chilly.jpg"/><br>
+<div class="yee">
+<h1><i class="fa-solid fa-pepper-hot"></i>Chilly Yummy Flavour<h1></div>
+</div>
+<div id="box21">
+
+<img src="Awais/hands.png"/><br>
+</div>
+<div id="box22">
+<div class="bot">
+<h1>About</h1>
+<p>Its very Delicious Taste<br>You can order 24/7</p>
+</div>
+<div class="cont">
+<h1>Contact`Us</h1>
+<i class="fa-solid fa-phone"></i>&nbsp03109863832<br>
+<i class="fa-regular fa-envelope"></i>&nbspranamawais832@gmail.com
+</div>
+<div id="box23">
+<div class="our">
+<h1>Our`Services</h1>
+<p>There are several our branches at national<br> and international level and you can contact<br> us for delivery and we will quickly provide<br> you we have experienced Chefs and we will <br>provide food with good quantity and resonable<br> price there are available of pizza shuwarma,burger<br>finger chips,Zinger Burger,and other kind of products   
+</p>
+</div>
+<div id="box24">
+<div class="yeh">
+<h1>Follow Us</h1>
+<input type="text" placeholder="Name"><br><br>
+<button>Join us</button><br><br>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+<i class="fa-brands fa-youtube"></i>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
